@@ -1,0 +1,12 @@
+apiVersion: kaptain.org/1.29
+kind: layer-and-layerset-build
+metadata:
+  description: "GitHub release How to Consume short-first layer"
+
+spec:
+  layers:
+    - layerset-and-layer-build:[1.4]
+  platform:
+    githubActions:
+      release:
+        consumerReferenceForms: short-first
