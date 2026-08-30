@@ -5,7 +5,7 @@ metadata:
 
 spec:
   layers:
-    - layerset-and-layer-build:[1.4]
+    - layerset-and-layer-build:[1.6]
   platform:
     githubActions:
       release:
