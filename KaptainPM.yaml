@@ -5,8 +5,4 @@ metadata:
 
 spec:
   layers:
-    - layerset-and-layer-build:[1.6]
-  platform:
-    githubActions:
-      release:
-        consumerReferenceForms: short-first
+    - layerset-and-layer-build:[1.7]
